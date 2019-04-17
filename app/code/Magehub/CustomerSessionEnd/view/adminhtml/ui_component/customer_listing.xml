@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magehub. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction">
+            <action name="sendconfirmation">
+                <settings>
+                    <confirm>
+                        <message translate="true">Are you sure to clear Session of selected customers?</message>
+                        <title translate="true">Clear Customer Session</title>
+                    </confirm>
+                    <url path="magehub_customersessionend/index/massClearCustomerSession"/>
+                    <type>clearsession</type>
+                    <label translate="true">Clear Customer Session</label>
+                </settings>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>
